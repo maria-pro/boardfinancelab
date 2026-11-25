@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Which month-end tasks should you hand to an AI agent first? · Board Finance Lab</title>
+<meta name="description" content="How a finance team decides which month-end close tasks to hand to an AI agent first, and how to check the agent is getting them right. By Maria Prokofieva, Associate Professor, AI-native finance and accounting, FCPA.">
+<link rel="canonical" href="https://boardfinancelab.com/briefings/month-end-ai-agents/">
+<link rel="me" href="https://mariaprokofieva.org/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Which month-end tasks should you hand to an AI agent first?">
+<meta property="og:description" content="Rank the close by three questions, start where mistakes are cheap, and let evidence decide when an agent is ready for anything that posts, pays or reports.">
+<meta property="og:url" content="https://boardfinancelab.com/briefings/month-end-ai-agents/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article",
+ "headline":"Which month-end tasks should you hand to an AI agent first?",
+ "datePublished":"2026-11-25","url":"https://boardfinancelab.com/briefings/month-end-ai-agents/",
+ "author":{"@type":"Person","name":"Maria Prokofieva","jobTitle":"Associate Professor, AI-native finance and accounting","url":"https://mariaprokofieva.org/",
+  "sameAs":["https://orcid.org/0000-0003-1974-3827"]},
+ "publisher":{"@type":"Organization","name":"Board Finance Lab","url":"https://boardfinancelab.com/"},
+ "citation":["https://doi.org/10.5281/zenodo.23578666"]}
+</script>
+<style>
+  :root{
+    --ink:#0F1C2B;--ink-soft:#44586D;--paper:#F1F5F8;--paper-deep:#E4ECF2;
+    --accent:#1B5E9C;--accent-deep:#13476E;--line:rgba(15,28,43,0.14);
+    --serif:'Fraunces',Georgia,serif;--sans:'Hanken Grotesk',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--sans);background:var(--paper);color:var(--ink);line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 28px}
+  header{padding:30px 0;border-bottom:1px solid var(--line)}
+  .bar{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+  .mark{font-family:var(--serif);font-weight:500;font-size:21px;letter-spacing:-0.01em;color:var(--ink);text-decoration:none}
+  .mark span{color:var(--accent)}
+  .tag{font-size:12px;letter-spacing:0.14em;text-transform:uppercase;color:var(--ink-soft)}
+  article{max-width:680px;margin:0 auto;padding:72px 0 64px}
+  .eyebrow{font-size:12.5px;letter-spacing:0.2em;text-transform:uppercase;color:var(--accent);font-weight:600;margin-bottom:22px}
+  h1{font-family:var(--serif);font-weight:500;font-size:clamp(32px,5vw,50px);line-height:1.08;letter-spacing:-0.02em}
+  .byline{margin-top:22px;font-size:14.5px;color:var(--ink-soft)}
+  .byline a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--accent)}
+  .lede{margin-top:34px;font-family:var(--serif);font-size:clamp(19px,2.2vw,22px);line-height:1.5;color:var(--ink)}
+  h2{font-family:var(--serif);font-weight:500;font-size:26px;letter-spacing:-0.01em;margin:48px 0 14px}
+  h3{font-family:var(--serif);font-weight:500;font-style:italic;font-size:20px;margin:30px 0 8px}
+  p{margin-top:16px;font-size:17px}
+  ul{margin:14px 0 0 22px}
+  li{margin-top:8px;font-size:17px}
+  li::marker{color:var(--accent)}
+  article a{color:var(--accent-deep);text-decoration:none;border-bottom:1px solid var(--line)}
+  article a:hover{border-bottom-color:var(--accent)}
+  .close{margin-top:40px;padding:28px 30px;background:var(--paper-deep);border-left:3px solid var(--accent)}
+  .close p{margin-top:0}
+  .sources{margin-top:48px;padding-top:24px;border-top:1px solid var(--line);font-size:14px;color:var(--ink-soft)}
+  .sources p,.sources li{font-size:14px}
+  .ask{margin-top:40px;font-size:16px}
+  footer{border-top:1px solid var(--line);padding:34px 0;font-size:13px;color:var(--ink-soft)}
+  .foot{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  footer a{color:inherit}
+</style>
+</head>
+<body>
+  <header>
+    <div class="wrap bar">
+      <a class="mark" href="/">Board Finance <span>Lab</span></a>
+      <div class="tag">Evidence on AI for boards and finance leaders</div>
+    </div>
+  </header>
+
+  <div class="wrap">
+  <article>
+    <p class="eyebrow">Briefing · AI agents · The month-end close</p>
+    <h1>Which month-end tasks should you hand to an AI agent first?</h1>
+    <p class="byline">By <a href="https://mariaprokofieva.org/">Maria Prokofieva</a>, Associate Professor, AI-native finance and accounting, FCPA · 25 November 2026</p>
+
+    <p class="lede">The month-end close is the most common place finance teams want to start with AI agents. Here is how I'd decide which tasks to hand over first, and how to check the agent is getting them right.</p>
+
+    <p>Start with a decision, not a build. It's tempting to rank tasks by how painful they are, but the most painful ones, such as reconciliations and journals, are rarely the safest place to start. Rank them instead with three questions:</p>
+    <ul>
+      <li>If the agent gets this wrong, what does it cost?</li>
+      <li>Would we notice?</li>
+      <li>Can we check the output against something the agent didn't produce?</li>
+    </ul>
+    <p>The answers sort the close into three groups, and the order matters.</p>
+
+    <h2>First, buy back time</h2>
+    <p>Start where a mistake is cheap and easy to spot, and where a person still makes the decision. Good candidates:</p>
+    <ul>
+      <li>drafting variance commentary from numbers that are already reconciled;</li>
+      <li>chasing staff for missing receipts and overdue approvals;</li>
+      <li>compiling the close checklist and the list of open items.</li>
+    </ul>
+    <p>None of these needs the agent to post anything or change the ledger. Even a few hours saved each month gives your team the time it needs for the next step.</p>
+
+    <h2>Then, tasks that are hard to get wrong</h2>
+    <p>Next come tasks that take more set-up, but where every output can be checked against an independent source:</p>
+    <ul>
+      <li>suggesting matches for the bank lines your bank rules couldn't match, with a reason for each, checked against the bank statement;</li>
+      <li>proposing accruals for goods received but not yet invoiced, checked against receiving records;</li>
+      <li>flagging possible duplicate invoices before the payment run.</li>
+    </ul>
+    <p>The agent proposes and a person approves; nothing posts automatically. Notice what isn't on this list: the rule-based matching your accounting software already does with bank rules and auto-matching, the same way every time. An agent earns its cost on what the rules leave behind: free-text descriptions, part payments and odd references.</p>
+
+    <h2>Only then, the high-stakes work</h2>
+    <p>This means posting journals, releasing payments, changing supplier bank details, and anything that goes to the board, a lender, a regulator or the ATO. Move here only when the first two steps have produced evidence, and only with a named owner, approval limits and a log of every action the agent takes.</p>
+
+    <h2>How to check what the agent does</h2>
+
+    <h3>Check the label, not just the number</h3>
+    <p>I tested an open-source team of AI agents that writes equity research notes, <a href="https://doi.org/10.5281/zenodo.23578666">FinAgent</a>. Across 24 notes, 936 of 937 numbers traced back to the source data. The errors that remained were in labels and context:</p>
+    <ul>
+      <li>a claim citing the wrong passage of an annual report;</li>
+      <li>a misread two-year table;</li>
+      <li>a dropped period.</li>
+    </ul>
+    <p>The one number that didn't trace was caught by an automatic check against the source data; the agent's own revision missed it. For a finance team, that means checking the period, the entity and the measure as well as the figure. Check against the source system, rather than asking the AI to check itself.</p>
+
+    <h3>Give the agent labelled data</h3>
+    <p>In a smaller comparison in the same project, 94% of first-draft claims matched their sources when figures came tagged with company, period and measure. Without the tags, the figure was 70%.</p>
+
+    <h3>Test on your own past closes, not sample data</h3>
+    <p>Re-run last quarter's close, where you already know the right answers. Record the hours and the errors before and after. That gives you a realistic number for your own team rather than a vendor's.</p>
+
+    <h3>Re-test after every change</h3>
+    <p>An agent doesn't get better by itself. Its behaviour changes when someone edits its instructions or when the vendor updates the model underneath, so treat each change like a change to a control.</p>
+
+    <h3>Be careful with agents that read inbound email</h3>
+    <p>Anyone who can email the agent can try to give it instructions, for example to update a supplier's bank details. Security specialists call this prompt injection, and <a href="https://genai.owasp.org/llmrisk/llm01-prompt-injection/">OWASP ranks it as the top risk</a> in its 2025 list for AI applications. In 2025, researchers showed that <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-32711">a single crafted email could make Microsoft 365 Copilot leak internal data</a> without anyone clicking anything. Microsoft fixed it, and there is no evidence it was exploited. Until you've tested for this, let the agent draft from email but not act on it.</p>
+
+    <div class="close">
+      <p>The aim for the first quarter isn't automation. It's time back and evidence. Hand over the cheap work, use the time you get back to set up work that can be checked, and let the evidence decide when the agent is ready for anything that posts, pays or reports.</p>
+    </div>
+
+    <div class="sources">
+      <p><strong>Sources.</strong></p>
+      <ul>
+        <li>FinAgent: code, results and ablation. <a href="https://doi.org/10.5281/zenodo.23578666">doi:10.5281/zenodo.23578666</a></li>
+        <li>OWASP GenAI Security Project, Top 10 for LLM Applications 2025, <a href="https://genai.owasp.org/llmrisk/llm01-prompt-injection/">LLM01: Prompt Injection</a></li>
+        <li>EchoLeak, <a href="https://nvd.nist.gov/vuln/detail/CVE-2025-32711">CVE-2025-32711</a> (NIST National Vulnerability Database)</li>
+      </ul>
+      <p>Educational content only. Not financial, audit or investment advice.</p>
+    </div>
+
+    <p class="ask">For a briefing to your audit committee, board or finance team: <a href="mailto:info@boardfinancelab.com">info@boardfinancelab.com</a></p>
+  </article>
+  </div>
+
+  <footer>
+    <div class="wrap foot">
+      <div><a href="/">Board Finance Lab</a> · <a href="https://mariaprokofieva.org/">mariaprokofieva.org</a></div>
+      <div>© 2026 Maria Prokofieva</div>
+    </div>
+  </footer>
+</body>
+</html>
